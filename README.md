@@ -94,7 +94,7 @@ RLS_Encoder encoder(10);
 
 void setup() {
   Serial.begin(9600);
-  encoder.begin();
+  encoder.begin(ENCODER_RESOLUTION_17);
 }
 
 void loop() {
